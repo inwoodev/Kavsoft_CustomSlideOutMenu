@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA74E362288A5CD30043C56C /* Kavsoft_CustomSlideOutMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74E361288A5CD30043C56C /* Kavsoft_CustomSlideOutMenuApp.swift */; };
+		EA74E364288A5CD30043C56C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74E363288A5CD30043C56C /* ContentView.swift */; };
+		EA74E366288A5CD30043C56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA74E365288A5CD30043C56C /* Assets.xcassets */; };
+		EA74E369288A5CD30043C56C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA74E368288A5CD30043C56C /* Preview Assets.xcassets */; };
+		EA74E373288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74E372288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests.swift */; };
+		EA74E37D288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74E37C288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests.swift */; };
+		EA74E37F288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74E37E288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA74E36F288A5CD40043C56C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA74E356288A5CD30043C56C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA74E35D288A5CD30043C56C;
+			remoteInfo = Kavsoft_CustomSlideOutMenu;
+		};
+		EA74E379288A5CD40043C56C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA74E356288A5CD30043C56C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA74E35D288A5CD30043C56C;
+			remoteInfo = Kavsoft_CustomSlideOutMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA74E35E288A5CD30043C56C /* Kavsoft_CustomSlideOutMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kavsoft_CustomSlideOutMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA74E361288A5CD30043C56C /* Kavsoft_CustomSlideOutMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kavsoft_CustomSlideOutMenuApp.swift; sourceTree = "<group>"; };
+		EA74E363288A5CD30043C56C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA74E365288A5CD30043C56C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA74E368288A5CD30043C56C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA74E36E288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kavsoft_CustomSlideOutMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA74E372288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kavsoft_CustomSlideOutMenuTests.swift; sourceTree = "<group>"; };
+		EA74E378288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kavsoft_CustomSlideOutMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA74E37C288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kavsoft_CustomSlideOutMenuUITests.swift; sourceTree = "<group>"; };
+		EA74E37E288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kavsoft_CustomSlideOutMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA74E35B288A5CD30043C56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74E36B288A5CD40043C56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74E375288A5CD40043C56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA74E355288A5CD30043C56C = {
+			isa = PBXGroup;
+			children = (
+				EA74E360288A5CD30043C56C /* Kavsoft_CustomSlideOutMenu */,
+				EA74E371288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests */,
+				EA74E37B288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests */,
+				EA74E35F288A5CD30043C56C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA74E35F288A5CD30043C56C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA74E35E288A5CD30043C56C /* Kavsoft_CustomSlideOutMenu.app */,
+				EA74E36E288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests.xctest */,
+				EA74E378288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA74E360288A5CD30043C56C /* Kavsoft_CustomSlideOutMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EA74E361288A5CD30043C56C /* Kavsoft_CustomSlideOutMenuApp.swift */,
+				EA74E363288A5CD30043C56C /* ContentView.swift */,
+				EA74E365288A5CD30043C56C /* Assets.xcassets */,
+				EA74E367288A5CD30043C56C /* Preview Content */,
+			);
+			path = Kavsoft_CustomSlideOutMenu;
+			sourceTree = "<group>";
+		};
+		EA74E367288A5CD30043C56C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA74E368288A5CD30043C56C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA74E371288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA74E372288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests.swift */,
+			);
+			path = Kavsoft_CustomSlideOutMenuTests;
+			sourceTree = "<group>";
+		};
+		EA74E37B288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA74E37C288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests.swift */,
+				EA74E37E288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITestsLaunchTests.swift */,
+			);
+			path = Kavsoft_CustomSlideOutMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA74E35D288A5CD30043C56C /* Kavsoft_CustomSlideOutMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA74E382288A5CD40043C56C /* Build configuration list for PBXNativeTarget "Kavsoft_CustomSlideOutMenu" */;
+			buildPhases = (
+				EA74E35A288A5CD30043C56C /* Sources */,
+				EA74E35B288A5CD30043C56C /* Frameworks */,
+				EA74E35C288A5CD30043C56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kavsoft_CustomSlideOutMenu;
+			productName = Kavsoft_CustomSlideOutMenu;
+			productReference = EA74E35E288A5CD30043C56C /* Kavsoft_CustomSlideOutMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA74E36D288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA74E385288A5CD40043C56C /* Build configuration list for PBXNativeTarget "Kavsoft_CustomSlideOutMenuTests" */;
+			buildPhases = (
+				EA74E36A288A5CD40043C56C /* Sources */,
+				EA74E36B288A5CD40043C56C /* Frameworks */,
+				EA74E36C288A5CD40043C56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA74E370288A5CD40043C56C /* PBXTargetDependency */,
+			);
+			name = Kavsoft_CustomSlideOutMenuTests;
+			productName = Kavsoft_CustomSlideOutMenuTests;
+			productReference = EA74E36E288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA74E377288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA74E388288A5CD40043C56C /* Build configuration list for PBXNativeTarget "Kavsoft_CustomSlideOutMenuUITests" */;
+			buildPhases = (
+				EA74E374288A5CD40043C56C /* Sources */,
+				EA74E375288A5CD40043C56C /* Frameworks */,
+				EA74E376288A5CD40043C56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA74E37A288A5CD40043C56C /* PBXTargetDependency */,
+			);
+			name = Kavsoft_CustomSlideOutMenuUITests;
+			productName = Kavsoft_CustomSlideOutMenuUITests;
+			productReference = EA74E378288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA74E356288A5CD30043C56C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EA74E35D288A5CD30043C56C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EA74E36D288A5CD40043C56C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EA74E35D288A5CD30043C56C;
+					};
+					EA74E377288A5CD40043C56C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EA74E35D288A5CD30043C56C;
+					};
+				};
+			};
+			buildConfigurationList = EA74E359288A5CD30043C56C /* Build configuration list for PBXProject "Kavsoft_CustomSlideOutMenu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA74E355288A5CD30043C56C;
+			productRefGroup = EA74E35F288A5CD30043C56C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA74E35D288A5CD30043C56C /* Kavsoft_CustomSlideOutMenu */,
+				EA74E36D288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests */,
+				EA74E377288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA74E35C288A5CD30043C56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA74E369288A5CD30043C56C /* Preview Assets.xcassets in Resources */,
+				EA74E366288A5CD30043C56C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74E36C288A5CD40043C56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74E376288A5CD40043C56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA74E35A288A5CD30043C56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA74E364288A5CD30043C56C /* ContentView.swift in Sources */,
+				EA74E362288A5CD30043C56C /* Kavsoft_CustomSlideOutMenuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74E36A288A5CD40043C56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA74E373288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74E374288A5CD40043C56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA74E37F288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITestsLaunchTests.swift in Sources */,
+				EA74E37D288A5CD40043C56C /* Kavsoft_CustomSlideOutMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA74E370288A5CD40043C56C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA74E35D288A5CD30043C56C /* Kavsoft_CustomSlideOutMenu */;
+			targetProxy = EA74E36F288A5CD40043C56C /* PBXContainerItemProxy */;
+		};
+		EA74E37A288A5CD40043C56C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA74E35D288A5CD30043C56C /* Kavsoft_CustomSlideOutMenu */;
+			targetProxy = EA74E379288A5CD40043C56C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA74E380288A5CD40043C56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA74E381288A5CD40043C56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA74E383288A5CD40043C56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kavsoft_CustomSlideOutMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = Z34KHT5SJG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inwoodev.Kavsoft-CustomSlideOutMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA74E384288A5CD40043C56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kavsoft_CustomSlideOutMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = Z34KHT5SJG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inwoodev.Kavsoft-CustomSlideOutMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA74E386288A5CD40043C56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34KHT5SJG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inwoodev.Kavsoft-CustomSlideOutMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kavsoft_CustomSlideOutMenu.app/Kavsoft_CustomSlideOutMenu";
+			};
+			name = Debug;
+		};
+		EA74E387288A5CD40043C56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34KHT5SJG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inwoodev.Kavsoft-CustomSlideOutMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kavsoft_CustomSlideOutMenu.app/Kavsoft_CustomSlideOutMenu";
+			};
+			name = Release;
+		};
+		EA74E389288A5CD40043C56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34KHT5SJG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inwoodev.Kavsoft-CustomSlideOutMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kavsoft_CustomSlideOutMenu;
+			};
+			name = Debug;
+		};
+		EA74E38A288A5CD40043C56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34KHT5SJG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inwoodev.Kavsoft-CustomSlideOutMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kavsoft_CustomSlideOutMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA74E359288A5CD30043C56C /* Build configuration list for PBXProject "Kavsoft_CustomSlideOutMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA74E380288A5CD40043C56C /* Debug */,
+				EA74E381288A5CD40043C56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA74E382288A5CD40043C56C /* Build configuration list for PBXNativeTarget "Kavsoft_CustomSlideOutMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA74E383288A5CD40043C56C /* Debug */,
+				EA74E384288A5CD40043C56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA74E385288A5CD40043C56C /* Build configuration list for PBXNativeTarget "Kavsoft_CustomSlideOutMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA74E386288A5CD40043C56C /* Debug */,
+				EA74E387288A5CD40043C56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA74E388288A5CD40043C56C /* Build configuration list for PBXNativeTarget "Kavsoft_CustomSlideOutMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA74E389288A5CD40043C56C /* Debug */,
+				EA74E38A288A5CD40043C56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA74E356288A5CD30043C56C /* Project object */;
+}
